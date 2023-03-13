@@ -1,0 +1,412 @@
+/* Login Page
+--------------------------------------------------------------------------------------------------------*/
+.carousel-inner .carousel-item {
+    transition: transform 2s ease;
+}
+
+.spaceBetweenUP {
+    margin-top: 250px;
+}
+
+.spaceBetweenDown {
+    margin-top: 95px;
+}
+
+.carousel-caption {
+    font-size: small;
+}
+
+.loginBtn {
+    background: #F8863400 0% 0% no-repeat padding-box;
+    border: 2px solid #F88634;
+    border-radius: 24px;
+    color: #F88634;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.card {
+    border: none;
+    width: 70%;
+}
+
+.container-fluid {
+    overflow-x: hidden;
+}
+
+.carosoulImg {
+    height: 100vh;
+    width: 100%;
+}
+
+/* Home Page  */
+header {
+    color: #414141;
+}
+
+.dropdown-toggle.profile {
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    border: 1px solid transparent;
+}
+
+.dropdown-toggle.profile img {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    object-fit: none;
+    /* Do not scale the image */
+    object-position: center;
+    /* Center the image within the element */
+}
+
+.profile span {
+    padding: 10px;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.nav-link {
+    color: black;
+}
+
+.search-bar {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar .form-control {
+    border: 1px solid transparent;
+    color: #000000;
+    background: url("../images/search.png") no-repeat;
+    background-position: 12px center;
+    width: 360px;
+    font-size: 16px;
+    line-height: 23px;
+    padding: 12px 16px 12px 48px;
+}
+
+.search-bar .form-control::-webkit-input-placeholder {
+    color: #000000;
+}
+
+.search-bar .form-control:hover,
+.search-bar .form-control:focus,
+.search-bar .form-control:active {
+    border: 1px solid var(--main-grey) !important;
+    transition: all 0.2s ease;
+}
+
+.dropdown.border-start {
+    min-height: 78px;
+    display: flex;
+}
+
+.SearchFilter button {
+    border-radius: 24px;
+    margin: 10px 5px;
+    padding: 2px 15px;
+    display: flex;
+    align-items: center;
+}
+
+.SearchFilter button span,
+a {
+    font-size: 13px;
+    width: max-content;
+}
+
+.SearchFilter ul {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.btn-outline-secondary {
+    color: #414141;
+}
+
+.btn-outline-secondary:hover {
+    color: #000 !important;
+    background-color: white;
+}
+
+.MissionTotalCount {
+    font-size: 24px;
+}
+
+.MissionTotalCount strong {
+    font-size: 28px;
+}
+
+.Missionview .dropdown-toggle button {
+    width: 171px;
+    height: 19px;
+    font-size: 14px;
+    box-shadow: 0.97px 0.26px 3px #0000000D;
+    border: 1px solid #D9D9D9;
+    border-radius: 3px;
+}
+
+.GridOrListView .GridView, .GridOrListView .ImageView {
+    text-decoration: none;
+    height: 48px;
+    width: 48px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 24px;
+    transition: background-color 0.5s ease;
+}
+
+.GridOrListView a:hover {
+    background-color: #DDDDDD;
+}
+
+.GridOrListView {
+    display: flex;
+    align-items: center;
+}
+
+.mainTop {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #414141;
+}
+
+.col.mb-5 {
+    display: flex;
+    justify-content: center;
+}
+
+.card-img-top {
+    height: 220px;
+}
+
+.card .btn {
+    background: #F8863400 0% 0% no-repeat padding-box;
+    border: 2px solid #F88634;
+    border-radius: 24px;
+    color: #F88634;
+}
+
+.location {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+}
+
+.like {
+    position: absolute;
+    top: 7.2rem;
+    right: 0.5rem;
+}
+
+.share {
+    position: absolute;
+    top: 10rem;
+    right: 0.5rem;
+}
+
+.operations {
+    background: #000000 0% 0% no-repeat padding-box;
+    border-radius: 50%;
+    border-color: none;
+    opacity: 0.4;
+    color: #ffffff;
+}
+
+.like .operations {
+    padding: 0.3rem;
+}
+
+.share .operations img {
+    filter: brightness(0) invert(1);
+}
+
+.location .operations {
+    border-radius: 18px;
+}
+
+.rounded-pill {
+    position: absolute;
+    background-color: white;
+    bottom: -5%;
+}
+
+.title {
+    color: #414141;
+    font-size: 28px;
+}
+
+.description {
+    color: #757575;
+    font-size: 15px;
+}
+
+.organization {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    cursor: default;
+}
+
+.rating {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.organization .rating input {
+    display: none;
+}
+
+.rating label {
+    content: url(../images/star.png);
+    transition: all 0.2s ease;
+}
+
+.rating input:not(:checked)~label:hover,
+.rating input:not(:checked)~label:hover~label
+{
+    content: url(../images/selected-star.png);
+}
+.rating input:checked~label{
+    content: url(../images/selected-star.png);
+}
+
+.timing-rounded-pill {
+    position: relative;
+    background-color: white;
+    border: 1px solid #E8E8E8;
+    border-radius: 18px;
+    bottom: -2%;
+}
+
+.SeatesAndDeadline {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.seatsCount,
+.deadlineDate {
+    font-size: 18px;
+    color: #414141;
+}
+
+.discrption {
+    font-size: 14px;
+    color: #757575;
+}
+
+.seates,
+.AlreadyVolunteeredSeates {
+    display: inline-flex;
+    align-items: start;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+.deadline,
+.gole {
+    display: inline-flex;
+    align-items: start;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+.seates img,
+.AlreadyVolunteeredSeates img {
+    margin-top: 0.4rem;
+}
+
+.gole img {
+    width: 24px;
+    height: 24px;
+}
+
+.progress {
+    width: 175px;
+    height: 10px;
+}
+
+.progress-bar {
+    background-color: #F88634;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+.pagination a.page-link {
+    color: #757575;
+    margin: 5px;
+}
+.pagination a.page-link:hover{
+    background-color: #F88634;
+    color: #ffffff;
+}
+.card-footer .btn:active {
+    color: #F88634;
+}
+
+/* Responsive Media Queries
+--------------------------------------------------------------------------------------------------------*/
+@media (max-width: 1200px) {
+    .flexColumn {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 991px) {
+    .spaceBetween {
+        display: none;
+    }
+
+    .card {
+        margin: 15px;
+    }
+
+    .login-container {
+        display: flex;
+        align-items: flex-start;
+        min-height: 20vh;
+    }
+
+    .carosoulImg {
+        height: 100%;
+    }
+
+    .spaceBetween {
+        display: block;
+    }
+
+    .spaceBetweenUP {
+        display: none;
+    }
+
+    .spaceBetweenDown {
+        margin-top: 0px;
+    }
+
+    main a {
+        color: #414141;
+    }
+}
+
+@media (max-width: 576px) {}

@@ -1,1 +1,1 @@
-# WebCodeSnippets
+# CI-Platform
